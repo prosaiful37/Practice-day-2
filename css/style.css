@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(128, 188, 190);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.inline a{
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+.inline a:hover{
+    background-color: bisque;
+    color: black;
+}
+.cars-select{
+    border:5px solid lightcoral;
+    padding: 20px;
+}
+.inline{
+    background-color: lightgrey;
+    padding: 20px;
+}
+.cars-select{
+    background-color: lightgrey;
+}
+.block{
+    padding: 20px;
+}
+.foucus-element div{
+    padding: 20px;
+    background-color: lightyellow;
+}
+.input1:focus{
+    background-color: yellowgreen;
+    color: rgb(168, 22, 22);
+    border:2px solid lightcoral;
+    padding: 5px;
+    
+}
